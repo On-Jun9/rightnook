@@ -1,0 +1,28 @@
+# Build outputs and generated configuration
+_build/
+Config/
+.build/
+.swiftpm/
+dist/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+
+# Local tools and editor state
+.vscode/
+.idea/
+*.swp
+*.swo
+.env
+.env.*
+
+# Signing material
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+
+# Public documentation must be included even with a global docs/ ignore.
+!docs/
+!docs/**
